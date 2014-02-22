@@ -52,7 +52,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+<<<<<<< HEAD
+                <img class="img-responsive" src="/logo.png" alt="FashionBlueprint">
+=======
                 <img class="img-responsive" src="/logo-1-96-white.png" alt="Fashion">
+>>>>>>> 23c77f5352e5d9e872b4b2f330f08ac27f54cd95
             </div>
         </div>
         <div class="row">
