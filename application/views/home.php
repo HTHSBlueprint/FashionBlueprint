@@ -79,10 +79,10 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="assets/img/p01.png" alt="">
+                        <img src="assets/img/tux.png" alt="">
                     </div>
                     <div class="item">
-                        <img src="assets/img/p02.png" alt="">
+                        <img src="assets/img/Dress1.png" alt="">
                     </div>
                     <div class="item">
                         <img src="assets/img/p03.png" alt="">
