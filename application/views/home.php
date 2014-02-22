@@ -55,13 +55,83 @@
                 <img class="img-responsive" src="assets/img/logo.png" alt="FashionBlueprint">
             </div>
             <div class="col-md8">
-                <h1><br/><br/>Fashion Your Seatbelts...<br/>
+                <h1><br/><br/><br/><br/>Fashion Your Seatbelts...<br/>
                     It's Time to Ready Up.</h1>
 
             </div><!-- /col-lg-6 -->
         </div>
     </div><!-- /container -->
 </div><!-- /headerwrap -->
+
+<div class="container">
+    <div class="row mt centered">
+        <div class="col-lg-6 col-lg-offset-3">
+            <h1>How Will Your<br/>Outfit End Up?</h1>
+            <h3>Look through some of our samples and see which one of them may be you in a matter of minutes!
+            Remember, wearing clothes doesn't end at home...</h3>
+        </div>
+    </div><!-- /row -->
+
+<div class="container">
+    <div class="row mt centered">
+        <div class="col-lg-4 col-lg-offset-4">
+            <div id = "myCarousel" class = "carousel slide carousel-fade" data-ride="carousel">
+                <ol class = "carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+
+                <div class = "carousel-inner">
+                    <div class = "item active">
+                        <img src = "assets/img/samp1.png" alt = "Black" class = "img-responsive">
+                        <div class="carousel-caption">
+                            <p>Feeling cold? Be a little bold!</p>
+                        </div>
+                    </div>
+
+                    <div class = "item">
+                        <img src = "assets/img/samp2.png" alt = "Black" class = "img-responsive">
+                        <div class="carousel-caption">
+                            <p>Too hot? Time to wear a top!</p>
+                        </div>
+                    </div>
+
+                    <div class = "item">
+                        <img src = "assets/img/samp3.png" alt = "Black" class = "img-responsive">
+                        <div class="carousel-caption">
+                            <p>Did it start raining? No need to start complaining!</p>
+                        </div>
+                    </div>
+
+                    <div class = "item">
+                        <img src = "assets/img/samp4.png" alt = "Black" class = "img-responsive">
+                        <div class="carousel-caption">
+                            <p>Going out but want to be comfortable? Look here!</p>
+                        </div>
+                    </div>
+
+                    <div class = "item">
+                        <img src = "assets/img/samp5.png" alt = "Black" class = "img-responsive">
+                        <div class="carousel-caption">
+                            <p> Cold but want the freedom of your legs? Here's your thing!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a class = "carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+
+                <a class = "carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row mt centered">
@@ -157,7 +227,8 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
 <script src="assets/js/bootstrap-theme.min.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
