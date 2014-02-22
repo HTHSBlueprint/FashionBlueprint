@@ -55,7 +55,7 @@
                 <img class="img-responsive" src="assets/img/logo.png" alt="FashionBlueprint">
             </div>
             <div class="col-md8">
-                <h1><br/><br/>Fashion Your Seatbelts...<br/>
+                <h1><br/><br/><br/><br/>Fashion Your Seatbelts...<br/>
                     It's Time to Ready Up.</h1>
 
             </div><!-- /col-lg-6 -->
@@ -88,35 +88,35 @@
                     <div class = "item active">
                         <img src = "assets/img/samp1.png" alt = "Black" class = "img-responsive">
                         <div class="carousel-caption">
-                            <h>Feeling cold? Be a little bold!</h>
+                            <p>Feeling cold? Be a little bold!</p>
                         </div>
                     </div>
 
                     <div class = "item">
                         <img src = "assets/img/samp2.png" alt = "Black" class = "img-responsive">
                         <div class="carousel-caption">
-                            <h>Too hot? Time to wear a top!</h>
+                            <p>Too hot? Time to wear a top!</p>
                         </div>
                     </div>
 
                     <div class = "item">
                         <img src = "assets/img/samp3.png" alt = "Black" class = "img-responsive">
                         <div class="carousel-caption">
-                            <h>Did it start raining? No need to start complaining!</h>
+                            <p>Did it start raining? No need to start complaining!</p>
                         </div>
                     </div>
 
                     <div class = "item">
                         <img src = "assets/img/samp4.png" alt = "Black" class = "img-responsive">
                         <div class="carousel-caption">
-                            <h>Going out but want to be comfortable? Look here!</h>
+                            <p>Going out but want to be comfortable? Look here!</p>
                         </div>
                     </div>
 
                     <div class = "item">
                         <img src = "assets/img/samp5.png" alt = "Black" class = "img-responsive">
                         <div class="carousel-caption">
-                            <h> Cold but want the freedom of your legs? Here's your thing!</h>
+                            <p> Cold but want the freedom of your legs? Here's your thing!</p>
                         </div>
                     </div>
                 </div>
