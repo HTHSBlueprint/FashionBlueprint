@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/favicon.png">
 
-    <title>BookSwap - Test Prep Book Exchange</title>
+    <title>Fashionism - Change Your View of the World</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
@@ -37,11 +37,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><b>BookSwap</b></a>
+            <a class="navbar-brand" href="#"><b>Fashion Blueprint</b></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Already a member?</a></li>
+                <li><a href="#">Already a fashionista?</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -52,13 +52,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="/logo-1-96-white.png" alt="BookSwap">
+                <img class="img-responsive" src="/logo-1-96-white.png" alt="Fashion">
             </div>
         </div>
         <div class="row">
             <div class="col-md-8">
-                <h1>Swap out your old test prep books...<br/>
-                    Easily and Securely.</h1>
+                <h1>Fashion Your Seatbelts...<br/>
+                    It's Time to Ready Up.</h1>
 
             </div><!-- /col-lg-6 -->
             <div class="col-md-4">
@@ -78,55 +78,57 @@
 <div class="container">
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
-            <h1>Your Landing Page<br/>Looks Wonderful Now.</h1>
-            <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+            <h1>Your Outfit Will<br/>Look Wonderful Now</h1>
+            <h3>What are you going to be wearing today? How are you going to dress? Continue below to find out...</h3>
         </div>
     </div><!-- /row -->
 
     <div class="row mt centered">
         <div class="col-lg-4">
             <img src="assets/img/ser01.png" width="180" alt="">
-            <h4>1 - Browser Compatibility</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            <h4>1 - Weather Compatible Capabilities</h4>
+            <p>Figure out the ideal choices for the weather and temperature! Would you want to be a penguin in Hawaii? Or a tiger in the Arctic?</p>
         </div><!--/col-lg-4 -->
 
         <div class="col-lg-4">
             <img src="assets/img/ser02.png" width="180" alt="">
-            <h4>2 - Email Campaigns</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            <h4>2 - Grade Integration</h4>
+            <p>Acing math? Failing Spanish? Want to show your teachers how you feel about school? Dress accordingly!</p>
 
         </div><!--/col-lg-4 -->
 
         <div class="col-lg-4">
             <img src="assets/img/ser03.png" width="180" alt="">
-            <h4>3 - Gather Your Notes</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            <h4>3 - Location Choice</h4>
+            <p>What clothes are you going to need? Would you want to wear a suit to a pool party? Shorts to a wedding (maybe)? Look out world...</p>
 
         </div><!--/col-lg-4 -->
     </div><!-- /row -->
 </div><!-- /container -->
 
 <div class="container">
-    <hr>
-    <div class="row centered">
+    <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
-            <form class="form-inline" role="form">
+            <form role="form">
                 <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                 </div>
-                <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
             </form>
         </div>
-        <div class="col-lg-3"></div>
-    </div><!-- /row -->
-    <hr>
-</div><!-- /container -->
+    </div>
+</div>
 
 <div class="container">
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
-            <h1>Flatty is for Everyone.</h1>
-            <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+            <h1>Fashionism is for the People</h1>
+            <h3>At home? On the bus? In school? Figure your fashion anywhere!</h3>
         </div>
     </div><!-- /row -->
 
@@ -207,20 +209,7 @@
 </div><!-- /container -->
 
 <div class="container">
-    <hr>
-    <div class="row centered">
-        <div class="col-lg-6 col-lg-offset-3">
-            <form class="form-inline" role="form">
-                <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
-                </div>
-                <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
-            </form>
-        </div>
-        <div class="col-lg-3"></div>
-    </div><!-- /row -->
-    <hr>
-    <p class="centered">Created by BlackTie.co - Attribution License 3.0 - 2013</p>
+    <p class="centered">Created by Blueprint Team</p>
 </div><!-- /container -->
 
 
