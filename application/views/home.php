@@ -175,11 +175,8 @@
     <!-- Form -->
     <div class="container"> 
         <div class="row mt centered">
-<<<<<<< HEAD
-            <form class="form-inline" role="form" action="<?php echo base_url('form_handler')?>" method="POST">
-=======
-            <form class="form-inline" role="form" action="<?php echo site_url('form_handler')?>" method="post">
->>>>>>> 495778c7df58e2fb129f92875f1d20d09f0c7a68
+            <form class="form-inline" role="form" action="<?php echo site_url('form_handler')?>" method="POST">
+
                 <div class="form-group">
                     <label class="sr-only" for="exampleInputEmail2">Full Name</label>
                     <input type="text" class="form-control" id="exampleInputEmail2" name="name" placeholder="Enter name">

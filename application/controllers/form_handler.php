@@ -3,26 +3,26 @@
 class Form_handler extends CI_Controller {
 	public function index()
 	{
-<<<<<<< HEAD
     $outfit = $this->createOutfit();
-		$this->load->view('home',$outfit);
-=======
-		$this->load->view('result');
-        $this->doWork();
->>>>>>> 495778c7df58e2fb129f92875f1d20d09f0c7a68
+		$this->load->view('result',$outfit);
 	}
 
 	public function createOutfit()
 	{
 		$name = $this->input->post('name');
-    var_dump($name);
-    exit;
 		$location = $this->input->post('location');
 		$locationArray = explode(", ", $location);
 		$city = trim(strtr($locationArray[0], " ", "_"));
 		$state = trim($locationArray[1]);
 		$gender = strtolower(trim($this->input->post('gender')));
-		$mathTest = (int) $this->input->post('mathTest');   
+		$mathTest = (int) $this->input->post('mathTest');
+    $rain = false;
+    $sunny = false;
+    $cloudy = false;
+    $snow = false;
+    $cold = false;
+    $middle = false;
+    $hot = false;
 
 		$outfit = array(
 			"hat" => "",
@@ -31,16 +31,17 @@ class Form_handler extends CI_Controller {
 
 		$json_string = file_get_contents("http://api.wunderground.com/api/660819cf2ae43c6e/geolookup/conditions/q/{$state}/{$city}.json");
     $weather = json_decode($json_string);
-    $temp = $weather->{'estimated'}->{'temp_f'};
-    $conditions = $weather->{'estimated'}->{'weather'};
+    $temp = $weather->{'current_observation'}->{'temp_f'};
+    $conditions = $weather->{'current_observation'}->{'weather'};
+    
 
-    if(stripos($conditions, "rain") != false) {
+    if(is_int(stripos($conditions, "rain"))) {
      $rain = true;        
-   } else if(stripos($conditions, "clear") != false) {
+   } else if(is_int(stripos($conditions, "clear"))) {
      $sunny = true;
-   } else if(stripos($conditions, "cloud") != false) {
+   } else if(is_int(stripos($conditions, "cloud"))) {
      $cloudy = true;
-   } else if(stripos($conditions, "snow") != false) {
+   } else if(is_int(stripos($conditions, "snow"))) {
      $snow = true;
    }
 
@@ -84,7 +85,7 @@ class Form_handler extends CI_Controller {
     $outfit['shirt'] = 'wintery';
   }
 
-  if(mathTest < 90)
+  if($mathTest < 90)
   {
     $outfit['pants'] = 'noPants';
   } 
