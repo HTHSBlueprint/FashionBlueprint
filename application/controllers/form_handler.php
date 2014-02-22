@@ -3,8 +3,13 @@
 class Form_handler extends CI_Controller {
 	public function index()
 	{
+<<<<<<< HEAD
     $outfit = $this->createOutfit();
 		$this->load->view('home',$outfit);
+=======
+		$this->load->view('result');
+        $this->doWork();
+>>>>>>> 495778c7df58e2fb129f92875f1d20d09f0c7a68
 	}
 
 	public function createOutfit()
