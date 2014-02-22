@@ -49,7 +49,7 @@
 
 <div class="container">
     <div class="row mt centered">
-        <div class="col-lg-6 col-lg-offset-3">
+        <div class="col-lg-6 col-lg-offset-4">
             <h1>After All of Your<br/>Work Here's the Result!</h1>
             <h3>Congratulations on taking your first step towards a brigher future! If you continue on this path, <br/>
             your life will fa-shine brightly on you!</h3>
@@ -59,11 +59,11 @@
 
 <div class="container">
     <div class="row mt centered">
-        <div class="col-lg-6 col-lg-offset-3">
+        <div class="col-lg-4">
             <img src="assets/img/clouds.png" width="180" alt="">
             <h4>Your Final Unique Outfit!</h4>
             <p>This is how you will be looking in a matter of minutes! Take your first steps towards this future...</p>
-        </div><!--/col-lg-4 -->
+        </div>
     </div>
 </div>
 

@@ -41,7 +41,7 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Already a fashionista?</a></li>
+                <li><a href="#form">Already a fashionista?</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
@@ -164,6 +164,7 @@
     </div><!-- /row -->
 </div><!-- /container -->
 
+<a name="form"></a>
 <div class="container">
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
@@ -212,7 +213,7 @@
                 </div>
                 <br/><br/>
                 <div class="col-lg-6 col-lg-offset-3">
-                <button type="submit" class="btn btn-primary btn-lg btn-block">Prepare my Outfit!</button>
+                <button type="submit" class="btn btn-primary btn-lg btn-block" style="width:550px; height:50px">Prepare my Outfit!</button>
                 </div>
             </form>
         </div>
