@@ -52,7 +52,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="/logo-1-96-white.png" alt="BookSwap">
+                <img class="img-responsive" src="/logo.png" alt="FashionBlueprint">
             </div>
         </div>
         <div class="row">
