@@ -65,6 +65,35 @@
 
 
 <div class="container">
+    <! -- CAROUSEL -->
+    <div class="row mt centered">
+        <div class="col-lg-12 col-lg-offset-2">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="assets/img/p01.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/p02.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/p03.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div><!-- /col-lg-8 -->
+    </div><!-- /row -->
+</div><! --/container -->
+
+<div class="container">
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
             <h1>Your Outfit Will<br/>Look Wonderful Now</h1>
@@ -95,61 +124,57 @@
     </div><!-- /row -->
 </div><!-- /container -->
 
-<!-- Form -->
 <div class="container">
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
-            <form role="form" action="form_handler.php" method="post">
+            <h1>Our Awesome Algorithm.<br/>Fashion Lovers.</h1>
+            <h3>It is a long established fact that people who use this algorithm are the best dressed at parties.</h3>
+        </div>
+    </div><!-- /row -->
+
+    <!-- Form -->
+    <div class="container">
+        <div class="row mt centered">
+            <form class="form-inline" role="form">
                 <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" name="name" class="form-control" placeholder="Enter name">
+                    <label class="sr-only" for="exampleInputEmail2">Full Name</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter name">
                 </div>
                 <div class="form-group">
-                    <label>Location</label>
-                    <input type="text" name="location" class="form-control" placeholder="Enter location">
+                    <label class="sr-only" for="exampleInputEmail2">Location</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter location">
                 </div>
+                </br></br>
+                <div class="radio">
+                    <label>
+                        What is your gender?
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        Male
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                        Female
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                        Unisex
+                    </label>
+                </div>
+
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
         </div>
     </div>
 </div>
+</div><!-- /container -->
 
 <div class="container">
-    <div class="row mt centered">
-        <div class="col-lg-6 col-lg-offset-3">
-            <h1>Fashionism is for the People</h1>
-            <h3>At home? On the bus? In school? Fashion and wearing clothes (hopefully) doesn't just end at home. <br/>
-                Figure your fashion anywhere!</h3>
-        </div>
-    </div><!-- /row -->
-
-    <! -- CAROUSEL -->
-    <div class="row mt centered">
-        <div class="col-lg-6 col-lg-offset-3">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="assets/img/p01.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/p02.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/p03.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div><!-- /col-lg-8 -->
-    </div><!-- /row -->
-</div><! --/container -->
+    <p class="centered">Created by Blueprint Team</p>
+</div><!-- /container -->
 
 
 <!-- Bootstrap core JavaScript
