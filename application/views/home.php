@@ -151,39 +151,6 @@
     </div><!-- /row -->
 </div><! --/container -->
 
-<div class="container">
-    <div class="row mt centered">
-        <div class="col-lg-6 col-lg-offset-3">
-            <h1>Our Awesome Team.<br/>Design Lovers.</h1>
-            <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
-        </div>
-    </div><!-- /row -->
-
-    <div class="row mt centered">
-        <div class="col-lg-4">
-            <img class="img-circle" src="assets/img/pic1.jpg" width="140" alt="">
-            <h4>Michael Robson</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-        </div><!--/col-lg-4 -->
-
-        <div class="col-lg-4">
-            <img class="img-circle" src="assets/img/pic2.jpg" width="140" alt="">
-            <h4>Pete Ford</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-        </div><!--/col-lg-4 -->
-
-        <div class="col-lg-4">
-            <img class="img-circle" src="assets/img/pic3.jpg" width="140" alt="">
-            <h4>Angelica Finning</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-        </div><!--/col-lg-4 -->
-    </div><!-- /row -->
-</div><!-- /container -->
-
-<div class="container">
-    <p class="centered">Created by Blueprint Team</p>
-</div><!-- /container -->
-
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
