@@ -75,32 +75,48 @@
 <div class="container">
     <div class="row mt centered">
         <div class="col-lg-4 col-lg-offset-4">
-            <div id = "myCarousel" class = "carousel" data-ride="carousel">
+            <div id = "myCarousel" class = "carousel slide carousel-fade" data-ride="carousel">
                 <ol class = "carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
                 </ol>
 
                 <div class = "carousel-inner">
                     <div class = "item active">
                         <img src = "assets/img/samp1.png" alt = "Black" class = "img-responsive">
                         <div class="carousel-caption">
-                            <h>Black</h>
+                            <h>Feeling cold? Be a little bold!</h>
                         </div>
                     </div>
 
                     <div class = "item">
                         <img src = "assets/img/samp2.png" alt = "Black" class = "img-responsive">
                         <div class="carousel-caption">
-                            <h>Green</h>
+                            <h>Too hot? Time to wear a top!</h>
                         </div>
                     </div>
 
                     <div class = "item">
                         <img src = "assets/img/samp3.png" alt = "Black" class = "img-responsive">
                         <div class="carousel-caption">
-                            <h>Red</h>
+                            <h>Did it start raining? No need to start complaining!</h>
+                        </div>
+                    </div>
+
+                    <div class = "item">
+                        <img src = "assets/img/samp4.png" alt = "Black" class = "img-responsive">
+                        <div class="carousel-caption">
+                            <h>Going out but want to be comfortable? Look here!</h>
+                        </div>
+                    </div>
+
+                    <div class = "item">
+                        <img src = "assets/img/samp5.png" alt = "Black" class = "img-responsive">
+                        <div class="carousel-caption">
+                            <h> Cold but want the freedom of your legs? Here's your thing!</h>
                         </div>
                     </div>
                 </div>
