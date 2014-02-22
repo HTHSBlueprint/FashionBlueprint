@@ -147,7 +147,7 @@
                 </br></br>
                 <div class="radio">
                     <label>
-                        What is your gender?
+                        <b> What is your gender? </b>
                         <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
                         Male
                     </label>
@@ -163,6 +163,11 @@
                         <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
                         Unisex
                     </label>
+                </div>
+                <p><b>What was your last math test grade (not average)?</b></p>
+                <div class="form-group">
+                    <label class="sr-only" for="exampleInputEmail2">Grade</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter Math Grade">
                 </div>
 
                 <button type="submit" class="btn btn-default">Submit</button>
