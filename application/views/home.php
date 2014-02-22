@@ -51,26 +51,15 @@
 <div id="headerwrap">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <img class="img-responsive" src="/logo.png" alt="FashionBlueprint">
+            <div class="col-lg-4">
+                <img class="img-responsive" src="assets/img/logo.png" alt="FashionBlueprint">
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <h1>Fashion Your Seatbelts...<br/>
+            <div class="col-md8">
+                <h1><br/><br/>Fashion Your Seatbelts...<br/>
                     It's Time to Ready Up.</h1>
 
             </div><!-- /col-lg-6 -->
-            <div class="col-md-4">
-                <form class="navbar-form search-bar" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Book info">
-                    </div>
-                    <button type="submit" class="btn btn-default">Search</button>
-                </form>
-            </div><!-- /col-lg-6 -->
-
-        </div><!-- /row -->
+        </div>
     </div><!-- /container -->
 </div><!-- /headerwrap -->
 
@@ -85,20 +74,20 @@
 
     <div class="row mt centered">
         <div class="col-lg-4">
-            <img src="assets/img/ser01.png" width="180" alt="">
+            <img src="assets/img/clouds.png" width="180" alt="">
             <h4>1 - Weather Compatible Capabilities</h4>
             <p>Figure out the ideal choices for the weather and temperature! Would you want to be a penguin in Hawaii? Or a tiger in the Arctic?</p>
         </div><!--/col-lg-4 -->
 
         <div class="col-lg-4">
-            <img src="assets/img/ser02.png" width="180" alt="">
+            <img src="assets/img/grades.png" width="180" alt="">
             <h4>2 - Grade Integration</h4>
             <p>Acing math? Failing Spanish? Want to show your teachers how you feel about school? Dress accordingly!</p>
 
         </div><!--/col-lg-4 -->
 
         <div class="col-lg-4">
-            <img src="assets/img/ser03.png" width="180" alt="">
+            <img src="assets/img/location.png" width="180" alt="">
             <h4>3 - Location Choice</h4>
             <p>What clothes are you going to need? Would you want to wear a suit to a pool party? Shorts to a wedding (maybe)? Look out world...</p>
 
@@ -113,11 +102,11 @@
             <form role="form" action="form_handler.php" method="post">
                 <div class="form-group">
                     <label>Name</label>
-                    <input type="text" name="name" class="form-control" placeholder="Enter email">
+                    <input type="text" name="name" class="form-control" placeholder="Enter name">
                 </div>
                 <div class="form-group">
                     <label>Location</label>
-                    <input type="text" name="location" class="form-control" placeholder="Example: New York, NY">
+                    <input type="text" name="location" class="form-control" placeholder="Enter location">
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
@@ -129,7 +118,8 @@
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
             <h1>Fashionism is for the People</h1>
-            <h3>At home? On the bus? In school? Figure your fashion anywhere!</h3>
+            <h3>At home? On the bus? In school? Fashion and wearing clothes (hopefully) doesn't just end at home. <br/>
+                Figure your fashion anywhere!</h3>
         </div>
     </div><!-- /row -->
 
@@ -162,22 +152,6 @@
 </div><! --/container -->
 
 <div class="container">
-    <hr>
-    <div class="row centered">
-        <div class="col-lg-6 col-lg-offset-3">
-            <form class="form-inline" role="form">
-                <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
-                </div>
-                <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
-            </form>
-        </div>
-        <div class="col-lg-3"></div>
-    </div><!-- /row -->
-    <hr>
-</div><!-- /container -->
-
-<div class="container">
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
             <h1>Our Awesome Team.<br/>Design Lovers.</h1>
@@ -190,21 +164,18 @@
             <img class="img-circle" src="assets/img/pic1.jpg" width="140" alt="">
             <h4>Michael Robson</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-            <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
         </div><!--/col-lg-4 -->
 
         <div class="col-lg-4">
             <img class="img-circle" src="assets/img/pic2.jpg" width="140" alt="">
             <h4>Pete Ford</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-            <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
         </div><!--/col-lg-4 -->
 
         <div class="col-lg-4">
             <img class="img-circle" src="assets/img/pic3.jpg" width="140" alt="">
             <h4>Angelica Finning</h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-            <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
         </div><!--/col-lg-4 -->
     </div><!-- /row -->
 </div><!-- /container -->
