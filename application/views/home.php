@@ -105,7 +105,7 @@
     <!-- Form -->
     <div class="container">
         <div class="row mt centered">
-            <form class="form-inline" role="form" action="<?php echo base_url('form_handler')?>" method="post">
+            <form class="form-inline" role="form" action="<?php echo base_url('form_handler')?>" method="POST">
                 <div class="form-group">
                     <label class="sr-only" for="exampleInputEmail2">Full Name</label>
                     <input type="text" class="form-control" id="exampleInputEmail2" name="name" placeholder="Enter name">
