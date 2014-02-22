@@ -15,7 +15,7 @@
     <link href="/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/main2.css" rel="stylesheet">
 
     <!-- Fonts from Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
@@ -47,8 +47,36 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row mt centered">
+        <div class="col-lg-6 col-lg-offset-3">
+            <h1>After All of Your<br/>Work Here's the Result!</h1>
+            <h3>Congratulations on taking your first step towards a brigher future! If you continue on this path, <br/>
+            your life will fa-shine brightly on you!</h3>
+        </div>
+    </div><!-- /row -->
+</div>
 
+<div class="container">
+    <div class="row mt centered">
+        <div class="col-lg-6 col-lg-offset-3">
+            <img src="assets/img/clouds.png" width="180" alt="">
+            <h4>Your Final Unique Outfit!</h4>
+            <p>This is how you will be looking in a matter of minutes! Take your first steps towards this future...</p>
+        </div><!--/col-lg-4 -->
+    </div>
+</div>
 
+<br/><br/><br/><br/><br/>
+<div class="container">
+    <div class="row mt centered">
+        <div class="col-lg-4 col-lg-offset-4">
+            <button type="button" class="btn btn-success">This Looks Great!</button><br/>
+            <br/>
+            <button type="button" class="btn btn-danger">Let's Try Again!</button>
+        </div>
+    </div>
+</div>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
