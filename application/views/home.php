@@ -169,8 +169,8 @@
                     <label class="sr-only" for="exampleInputEmail2">Grade</label>
                     <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter Math Grade">
                 </div>
-
-                <button type="submit" class="btn btn-default">Submit</button>
+                <br/>
+                <button type="submit" class="btn btn-default">Prepare my Outfit!</button>
             </form>
         </div>
     </div>
