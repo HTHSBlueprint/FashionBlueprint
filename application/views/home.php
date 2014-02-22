@@ -52,7 +52,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <img class="img-responsive" src="assets/img/logo.png" alt="FashionBlueprint">
+                <img class="img-responsive" src="assets/img/logo1.png" alt="FashionBlueprint">
             </div>
             <div class="col-md8">
                 <h1><br/><br/><br/><br/>Fashion Your Seatbelts...<br/>
