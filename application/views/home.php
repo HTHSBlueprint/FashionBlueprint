@@ -63,36 +63,6 @@
     </div><!-- /container -->
 </div><!-- /headerwrap -->
 
-
-<div class="container">
-    <! -- CAROUSEL -->
-    <div class="row mt centered">
-        <div class="col-lg-12 col-lg-offset-2">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="assets/img/tux.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/Dress1.png" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/p03.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div><!-- /col-lg-8 -->
-    </div><!-- /row -->
-</div><! --/container -->
-
 <div class="container">
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
@@ -169,8 +139,10 @@
                     <label class="sr-only" for="exampleInputEmail2">Grade</label>
                     <input type="text" class="form-control" id="exampleInputEmail2" name="mathTest" placeholder="Enter Math Grade">
                 </div>
-                <br/>
-                <button type="submit" class="btn btn-default">Prepare my Outfit!</button>
+                <br/><br/>
+                <div class="col-lg-6 col-lg-offset-3">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Prepare my Outfit!</button>
+                </div>
             </form>
         </div>
     </div>
