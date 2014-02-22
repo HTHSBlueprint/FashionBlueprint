@@ -135,39 +135,39 @@
     <!-- Form -->
     <div class="container">
         <div class="row mt centered">
-            <form class="form-inline" role="form">
+            <form class="form-inline" role="form" action="form_handler.php" method="post">
                 <div class="form-group">
                     <label class="sr-only" for="exampleInputEmail2">Full Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter name">
+                    <input type="text" class="form-control" id="exampleInputEmail2" name="name" placeholder="Enter name">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="exampleInputEmail2">Location</label>
-                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter location">
+                    <input type="text" class="form-control" id="exampleInputEmail2" name="location" placeholder="Enter location (Example: New York, NY)">
                 </div>
                 </br></br>
                 <div class="radio">
                     <label>
                         <b> What is your gender? </b>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        <input type="radio" name="gender" id="optionsRadios1" value="male" checked>
                         Male
                     </label>
                 </div>
                 <div class="radio">
                     <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                        <input type="radio" name="gender" id="optionsRadios2" value="female">
                         Female
                     </label>
                 </div>
                 <div class="radio">
                     <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                        <input type="radio" name="gender" id="optionsRadios2" value="unisex">
                         Unisex
                     </label>
                 </div>
                 <p><b>What was your last math test grade (not average)?</b></p>
                 <div class="form-group">
                     <label class="sr-only" for="exampleInputEmail2">Grade</label>
-                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter Math Grade">
+                    <input type="text" class="form-control" id="exampleInputEmail2" name="mathTest" placeholder="Enter Math Grade">
                 </div>
                 <br/>
                 <button type="submit" class="btn btn-default">Prepare my Outfit!</button>
