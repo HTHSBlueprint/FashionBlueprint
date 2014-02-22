@@ -195,3 +195,7 @@ i {
     z-index: 2;
 }
     }
+
+#search {
+    width: 20em;  height: 2em;
+}

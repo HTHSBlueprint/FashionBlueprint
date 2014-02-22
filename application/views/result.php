@@ -71,9 +71,9 @@
 <div class="container">
     <div class="row mt centered">
         <div class="col-lg-4 col-lg-offset-4">
-            <button type="button" class="btn btn-success">This Looks Great!</button><br/>
+            <button type="button" class="btn btn-success" style="width:500px; height:100px"><b> <font size=5>This Looks Great!</font></b></button><br/>
             <br/>
-            <button type="button" class="btn btn-danger">Let's Try Again!</button>
+            <button type="button" class="btn btn-danger" style="width:500px; height:100px"><b><font size=5>Let's Try Again!</font></b></button>
         </div>
     </div>
 </div>
