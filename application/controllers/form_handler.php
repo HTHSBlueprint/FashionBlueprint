@@ -12,8 +12,8 @@ class Form_handler extends CI_Controller {
 		$name = $this->input->post('name');
 		$location = $this->input->post('location');
 		$locationArray = explode(", ", $location);
-		$city = strtr($locationArray[0], " ", "_");
-		$state = $locationArray[1];
+		$city = trim(strtr($locationArray[0], " ", "_"));
+		$state = trim($locationArray[1]);
 		$gender = $this->input->post('gender');
 		$mathTest = (int) $this->input->post('mathTest');
 
