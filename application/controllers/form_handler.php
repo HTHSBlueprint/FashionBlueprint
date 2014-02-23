@@ -28,7 +28,10 @@ class Form_handler extends CI_Controller {
       "gender" => "",
 			"hat" => "",
 			"shirt" => "",
-			"pants" => "");
+			"pants" => "",
+      "name"=> "");
+
+    $outfit['name'] = $name;
 
     if($gender == 'male'){
       $outfit['gender'] = 'base_male_character.png';
