@@ -58,11 +58,17 @@
 </div>
 
 <div class="container">
-    <div class="row mt centered">
-        <div class="col-lg-4">
-            <img src="assets/img/clouds.png" width="180" alt="">
+    <div class="row">
+        <div class="col-lg-6">
+                <img id="base" class="img-responsive" src="../assets/img/clothes/base_male_character.png" alt="FashionBlueprint">
+                <img id="hat" class="img-responsive" src="../assets/img/clothes/sombrero.png" alt="FashionBlueprint">
+                <img id="shirt" class="img-responsive" src="../assets/img/clothes/tank_top.png" alt="FashionBlueprint">
+                <img id="pants" class="img-responsive" src="../assets/img/clothes/pants.png" alt="FashionBlueprint">
+        </div>
+        <div class="col-lg-6">
             <h4>Your Final Unique Outfit!</h4>
             <p>This is how you will be looking in a matter of minutes! Take your first steps towards this future...</p>
+        </div>
         </div>
     </div>
 </div>
@@ -81,7 +87,7 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-    <script src="assets/js/bootstrap-theme.min.js"></script>
-<script src="js/bootstrap.js"></script>
+    <script src="../assets/js/bootstrap-theme.min.js"></script>
+<script src="../js/bootstrap.js"></script>
 </body>
 </html>

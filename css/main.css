@@ -195,3 +195,33 @@ i {
     z-index: 2;
 }
     }
+
+/*
+ Image Overaly
+ */
+
+#base {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+}
+
+#hat {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+#shirt {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+#pants {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:3;
+}
