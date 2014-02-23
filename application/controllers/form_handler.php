@@ -25,9 +25,18 @@ class Form_handler extends CI_Controller {
     $hot = false;
 
 		$outfit = array(
+      "gender" => "",
 			"hat" => "",
 			"shirt" => "",
 			"pants" => "");
+
+    if($gender == 'male'){
+      $outfit['gender'] = 'base_male_character.png';
+    } else if($gender == 'female'){
+      $outfit['gender'] = 'base_female_character.png';
+    } else if($gender == 'unisex'){
+      $outfit['gender'] = 'base_neutral_character.png';
+    }
 
 		$json_string = file_get_contents("http://api.wunderground.com/api/660819cf2ae43c6e/geolookup/conditions/q/{$state}/{$city}.json");
     $weather = json_decode($json_string);
@@ -54,49 +63,51 @@ class Form_handler extends CI_Controller {
    }
 
    if($rain || $snow) {
-    $outfit['hat'] = 'sombrero';
+    $outfit['hat'] = 'sombrero.png';
   } else if($sunny && $gender == 'male') {
-    $outfit['hat'] = 'cap';
+    $outfit['hat'] = 'baseball_ball.png';
   } else{
-    $outfit['hat'] = 'noHat';
+    $outfit['hat'] = 'no_hat_no_pants.png';
   }
 
   if($gender != 'female' && !$rain){
     if($hot){
-      $outfit['shirt'] = 'tanktop';
+      $outfit['shirt'] = 'tank_top.png';
     }
     else if($middle){
-      $outfit['shirt'] = 'tshirt';
+      $outfit['shirt'] = 'blue_t_shirt.png';
     }
   }
 
   if($gender == 'female' && !$rain){
     if($hot){
-      $outfit['shirt'] = 'blouse';
+      $outfit['shirt'] = 'female_tank_top.png';
     }
     else if($middle){
-      $outfit['shirt'] = 'longSleeve';
+      $outfit['shirt'] = 'pink_t_shirt.png';
     }
   }
 
   if($rain){
-    $outfit['shirt'] = 'umbrella';
+    $outfit['shirt'] = 'umbrella_shirt.png';
   } else if($cold){
-    $outfit['shirt'] = 'wintery';
+    $outfit['shirt'] = 'winter_shirt.png';
   }
 
   if($mathTest < 90)
   {
-    $outfit['pants'] = 'noPants';
+    $outfit['pants'] = 'no_hat_no_pants.png';
   } 
   else if($hot) 
   {
-    $outfit['pants'] = 'shorts';
+    $outfit['pants'] = 'shorts.png';
   }
   else {
-    $outfit['pants'] = 'longPants';
+    $outfit['pants'] = 'pants.png';
   }
 
+  var_dump($outfit);
+  exit;
   return $outfit;
   }
 }
