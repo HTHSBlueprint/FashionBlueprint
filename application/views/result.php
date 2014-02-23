@@ -57,13 +57,13 @@
     </div><!-- /row -->
 </div>
 
-<div class="container">
+<div class="container" style="position:relative">
     <div class="row">
         <div class="col-lg-6">
-                <img id="base" class="img-responsive" src="../assets/img/clothes/base_male_character.png" alt="FashionBlueprint">
-                <img id="hat" class="img-responsive" src="../assets/img/clothes/sombrero.png" alt="FashionBlueprint">
-                <img id="shirt" class="img-responsive" src="../assets/img/clothes/tank_top.png" alt="FashionBlueprint">
-                <img id="pants" class="img-responsive" src="../assets/img/clothes/pants.png" alt="FashionBlueprint">
+                <img id="base" src="../assets/img/clothes/base_male_character.png" alt="FashionBlueprint">
+                <img id="hat" src="../assets/img/clothes/sombrero.png" alt="FashionBlueprint">
+                <img id="shirt" src="../assets/img/clothes/tank_top.png" alt="FashionBlueprint">
+                <img id="pants" src="../assets/img/clothes/pants.png" alt="FashionBlueprint">
         </div>
         <div class="col-lg-6">
             <h4>Your Final Unique Outfit!</h4>
