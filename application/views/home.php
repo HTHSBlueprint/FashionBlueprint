@@ -218,6 +218,15 @@
             </form>
         </div>
     </div>
+
+    <div class="row mt centered">
+        <div class="col-lg-6 col-lg-offset-3">
+            <h1>Disclaimer</h1>
+            <h3>By clicking the above submission button, you enter a non-refundable legal obligation to dress in the exact manner
+                demonstrated by the following webpage. Proceed with caution</h3>
+        </div>
+    </div>
+
 </div>
 </div><!-- /container -->
 

@@ -47,11 +47,13 @@
     </div>
 </div>
 
+<br/><br/>
+
 <div class="container">
-    <div class="row mt centered">
-        <div class="col-lg-6 col-lg-offset-4">
+    <div class="row centered">
+        <div class="col-lg-6 col-lg-offset-3">
             <h1>After All of Your<br/>Work Here's the Result!</h1>
-            <h3>Congratulations on taking your first step towards a brigher future! If you continue on this path, <br/>
+            <h3>Congratulations on your first step towards a brighter future for coming generations! If you continue on this path,
             your life will fa-shine brightly on you!</h3>
         </div>
     </div><!-- /row -->
@@ -65,18 +67,20 @@
                 <img id="shirt" src="../assets/img/clothes/<?php echo $shirt;?>" alt="FashionBlueprint">
                 <img id="pants" src="../assets/img/clothes/<?php echo $pants;?>" alt="FashionBlueprint">
         </div>
-        <div class="col-lg-6">
-            <h4> <?php echo $name;?>'s Unique Final Outfit!</h4>
-            <p>This is how you will be looking in a matter of minutes! Take your first steps towards this future...</p>
+        <div class="col-lg-12">
+            <div class="row centered">
+                <h4> <?php echo $name;?>'s Unique Final Outfit!</h4>
+                <p>This is how you will be looking in a matter of minutes! Take your first steps towards this future...</p>
+            </div>
         </div>
         </div>
     </div>
 </div>
 
-<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
 <div class="container">
     <div class="row mt centered">
-        <div class="col-lg-4 col-lg-offset-4">
+        <div class="col-lg-4 col-lg-offset-6">
             <button type="button" class="btn btn-success" style="width:500px; height:100px"><b> <font size=5>This Looks Great!</font></b></button><br/>
             <br/>
             <button type="button" class="btn btn-danger" style="width:500px; height:100px"><b><font size=5>Let's Try Again!</font></b></button>
