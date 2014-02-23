@@ -16,7 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/main2.css" rel="stylesheet">
-
+    <link href="/css/main.css" rel="stylesheet">
     <!-- Fonts from Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
 
@@ -66,7 +66,7 @@
                 <img id="pants" src="../assets/img/clothes/<?php echo $pants;?>" alt="FashionBlueprint">
         </div>
         <div class="col-lg-6">
-            <h4>Your Final Unique Outfit!</h4>
+            <h4> Your Unique Final Outfit!</h4>
             <p>This is how you will be looking in a matter of minutes! Take your first steps towards this future...</p>
         </div>
         </div>
