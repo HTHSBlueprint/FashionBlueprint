@@ -106,8 +106,6 @@ class Form_handler extends CI_Controller {
     $outfit['pants'] = 'pants.png';
   }
 
-  var_dump($outfit);
-  exit;
   return $outfit;
   }
 }
