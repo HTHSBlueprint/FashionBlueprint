@@ -31,11 +31,11 @@ class Form_handler extends CI_Controller {
 			"pants" => "");
 
     if($gender == 'male'){
-      array['gender'] = 'base_male_character.png';
+      $outfit['gender'] = 'base_male_character.png';
     } else if($gender == 'female'){
-      array['gender'] = 'base_female_character.png';
+      $outfit['gender'] = 'base_female_character.png';
     } else if($gender == 'unisex'){
-      array['gender'] = 'base_neutral_character.png';
+      $outfit['gender'] = 'base_neutral_character.png';
     }
 
 		$json_string = file_get_contents("http://api.wunderground.com/api/660819cf2ae43c6e/geolookup/conditions/q/{$state}/{$city}.json");
@@ -65,7 +65,7 @@ class Form_handler extends CI_Controller {
    if($rain || $snow) {
     $outfit['hat'] = 'sombrero.png';
   } else if($sunny && $gender == 'male') {
-    $outfit['hat'] = 'cap';
+    $outfit['hat'] = 'baseball_ball.png';
   } else{
     $outfit['hat'] = 'no_hat_no_pants.png';
   }
@@ -106,6 +106,8 @@ class Form_handler extends CI_Controller {
     $outfit['pants'] = 'pants.png';
   }
 
+  var_dump($outfit);
+  exit;
   return $outfit;
   }
 }
