@@ -213,13 +213,13 @@ i {
     left:0;
     z-index:1;
 }
-#shirt {
+#pants {
     position:absolute;
     top:0;
     left:0;
     z-index:2;
 }
-#pants {
+#shirt {
     position:absolute;
     top:0;
     left:0;
