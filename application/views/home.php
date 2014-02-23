@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/favicon.png">
 
-    <title>BookSwap - Test Prep Book Exchange</title>
+    <title>Fashionism - Fashion Blueprint</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
@@ -37,7 +37,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><b>BookSwap</b></a>
+            <a class="navbar-brand" href="#"><b>Fashion Blueprint</b></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -52,13 +52,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="/logo-1-96-white.png" alt="BookSwap">
+                <img class="img-responsive" src="/logo-1-96-white.png" alt="Fashion">
             </div>
         </div>
         <div class="row">
             <div class="col-md-8">
-                <h1>Swap out your old test prep books...<br/>
-                    Easily and Securely.</h1>
+                <h1>Fashion Your Seatbelts...<br/>
+                    Time to Ready Up.</h1>
 
             </div><!-- /col-lg-6 -->
             <div class="col-md-4">
