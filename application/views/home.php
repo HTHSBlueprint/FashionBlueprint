@@ -67,7 +67,7 @@
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
             <h1>How Will Your<br/>Outfit End Up?</h1>
-            <h3>Look through some of our samples and see which one of them may be you in a matter of minutes!
+            <h3>This one-of-a-kind web application provides a solid blueprint for your daily fashion decisions. Look through some of our samples and see which one of them may be you in a matter of minutes!
             Remember, wearing clothes doesn't end at home...</h3>
         </div>
     </div><!-- /row -->
