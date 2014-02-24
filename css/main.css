@@ -202,26 +202,26 @@ i {
 
 #base {
     position:absolute;
-    top:0;
+    top:100px;
     left:0;
     z-index:0;
 }
 
 #hat {
     position:absolute;
-    top:0;
+    top:100px;
     left:0;
     z-index:1;
 }
 #pants {
     position:absolute;
-    top:0;
+    top:100px;
     left:0;
     z-index:2;
 }
 #shirt {
     position:absolute;
-    top:0;
+    top:100px;
     left:0;
     z-index:3;
 }

@@ -51,7 +51,7 @@ class Form_handler extends CI_Controller {
      $rain = true;        
    } else if(is_int(stripos($conditions, "clear"))) {
      $sunny = true;
-   } else if(is_int(stripos($conditions, "cloud"))) {
+   } else if(is_int(stripos($conditions, "cloud")) || is_int(stripos($conditions, "overcast"))) {
      $cloudy = true;
    } else if(is_int(stripos($conditions, "snow"))) {
      $snow = true;
