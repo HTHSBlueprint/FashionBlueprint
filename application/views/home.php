@@ -188,7 +188,7 @@
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="exampleInputEmail2">Location</label>
-                    <input type="text" class="form-control" id="exampleInputEmail2" name="location" placeholder="Location (Ex: Dew, TX)">
+                    <input type="text" class="form-control" id="exampleInputEmail2" name="location" placeholder="Location(City, State/Country)">
                 </div>
                 </br></br>
                 <div class="radio">

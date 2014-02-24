@@ -9,11 +9,17 @@ class Form_handler extends CI_Controller {
 
 	public function createOutfit()
 	{
+    set_include_path('c:/wamp/www/FashionBlueprint/application/libraries');
+    include 'postal_codes.php';
 		$name = $this->input->post('name');
 		$location = $this->input->post('location');
 		$locationArray = explode(", ", $location);
-		$city = trim(strtr($locationArray[0], " ", "_"));
-		$state = trim($locationArray[1]);
+		$city = strtr(trim(ucwords($locationArray[0])), " ", "_");
+    if(array_key_exists(trim($locationArray[1]), $postalCodes)) {
+      $state = $postalCodes[trim($locationArray[1])];
+    } else{
+      $state = trim($locationArray[1]);
+    }
 		$gender = strtolower(trim($this->input->post('gender')));
 		$mathTest = (int) $this->input->post('mathTest');
     $rain = false;
@@ -65,7 +71,7 @@ class Form_handler extends CI_Controller {
      $hot = true;
    }
 
-   if($rain || $snow) {
+   if($snow) {
     $outfit['hat'] = 'sombrero.png';
   } else if($sunny && $gender == 'male') {
     $outfit['hat'] = 'baseball_ball.png';
