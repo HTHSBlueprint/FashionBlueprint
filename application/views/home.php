@@ -8,12 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/favicon.png">
-
-<<<<<<< HEAD
-    <title>Fashionism - Fashion Blueprint</title>
-=======
     <title>Fashionism - Change Your View of the World</title>
->>>>>>> 57f660c7f6586c3eb89510b05f48c03515423655
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
@@ -55,23 +50,13 @@
 <div id="headerwrap">
     <div class="container">
         <div class="row">
-<<<<<<< HEAD
-            <div class="col-lg-12">
-                <img class="img-responsive" src="/logo-1-96-white.png" alt="Fashion">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <h1>Fashion Your Seatbelts...<br/>
-                    Time to Ready Up.</h1>
-=======
+
             <div class="col-lg-4">
                 <img class="img-responsive" src="assets/img/logo1.png" alt="FashionBlueprint">
             </div>
             <div class="col-md8">
                 <h1><br/><br/><br/><br/>Fashion Your Seatbelts...<br/>
                     It's Time to Ready Up.</h1>
->>>>>>> 57f660c7f6586c3eb89510b05f48c03515423655
 
             </div><!-- /col-lg-6 -->
         </div>
