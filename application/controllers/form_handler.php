@@ -9,8 +9,11 @@ class Form_handler extends CI_Controller {
 
 	public function createOutfit()
 	{
-    set_include_path('c:/wamp/www/FashionBlueprint/application/libraries');
+    set_include_path($_SERVER["DOCUMENT_ROOT"] . '/application/libraries');
     include 'postal_codes.php';
+    $var = $postalCodes['alabama'];
+    var_dump($var);
+    exit;
 		$name = $this->input->post('name');
 		$location = $this->input->post('location');
 		$locationArray = explode(", ", $location);
