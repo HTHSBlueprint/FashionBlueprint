@@ -46,6 +46,11 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#form">Already a fashionista?</a></li>
             </ul>
+            <ul class="nav navbar-nav navbar-middle">
+                <a href="<?php echo site_url('help')?>"><button type="button" class="btn btn-default btn-lg">
+                    <span class="glyphicon glyphicon-question-sign"></span>
+                </button></a>
+            </ul>
         </div><!--/.nav-collapse -->
     </div>
 </div>
@@ -56,10 +61,10 @@
         <div class="row">
 
             <div class="col-lg-4">
-                <img class="img-responsive" src="assets/img/logo1.png" alt="FashionBlueprint">
+                <img class="img-responsive" src="assets/img/logo1.png" alt="FashionBlueprint" height="75%" width="75%">
             </div>
             <div class="col-md8">
-                <h1><br/><br/><br/><br/>Fashion Your Seatbelts...<br/>
+                <h1><br/><br/><br/>Fashion Your Seatbelts...<br/>
                     It's Time to Ready Up.</h1>
 
             </div><!-- /col-lg-6 -->

@@ -8,15 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/favicon.png">
-
     <title>Fashionism - Change Your View of the World</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/main2.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
+
     <!-- Fonts from Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
 
@@ -32,6 +31,7 @@
 <!-- Analytics Tracking -->
 <?php include_once("analyticstracking.php") ?>
 
+
 <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -40,59 +40,43 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="home"><b>Fashion Blueprint</b></a>
+            <a class="navbar-brand" href="#"><b>Fashion Blueprint</b></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Already a fashionista?</a></li>
+                <li><a href="#form">Already a fashionista?</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
 </div>
 
-<br/><br/>
+<!-- Search Bar -->
+<div id="headerwrap">
+    <div class="container">
+        <div class="row">
 
-<div class="container">
-    <div class="row centered">
-        <div class="col-lg-6 col-lg-offset-3">
-            <h1>After All of Your<br/>Work Here's the Result!</h1>
-            <h3>Congratulations on your first step towards a brighter future for coming generations! If you continue on this path,
-            your life will fa-shine brightly on you!</h3>
-        </div>
-    </div><!-- /row -->
-</div>
-
-<div class="container" style="position:relative">
-    <div class="row">
-        <div class="col-lg-6">
-                <img id="base" src="../../assets/img/clothes/<?php echo $gender;?>" alt="FashionBlueprint">
-                <img id="hat" src="../../assets/img/clothes/<?php echo $hat;?>" alt="FashionBlueprint">
-                <img id="shirt" src="../../assets/img/clothes/<?php echo $shirt;?>" alt="FashionBlueprint">
-                <img id="pants" src="../../assets/img/clothes/<?php echo $pants;?>" alt="FashionBlueprint">
-        </div>
-        <div class="col-lg-12">
-            <div class="row centered">
-                <h4> <?php echo $name;?>'s Unique Final Outfit!</h4>
-                <p>This is how you will be looking in a matter of minutes! Take your first steps towards this future...</p>
+            <div class="col-lg-4">
+                <img class="img-responsive" src="assets/img/logo1.png" alt="FashionBlueprint" height="75%" width="75%">
             </div>
-        </div>
-        </div>
-    </div>
-</div>
+            <div class="col-md8">
+                <h1><br/><br/><br/>Fashion Your Seatbelts...<br/>
+                    It's Time to Ready Up.</h1>
 
-<br/><br/><br/><br/><br/><br/>
-<div class="container">
-    <div class="row mt centered">
-        <div class="col-lg-4 col-lg-offset-6">
-           <a href=/#form><button type="button" class="btn btn-danger" style="width:500px; height:100px"><b><font size=5>Let's Try Again!</font></b></button></a>
+            </div><!-- /col-lg-6 -->
         </div>
-    </div>
-</div>
+    </div><!-- /container -->
+</div><!-- /headerwrap -->
+
+<div class="container">
+    <p class="centered">Created by Blueprint Team</p>
+</div><!-- /container -->
+
+
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-    <script src="../assets/js/bootstrap-theme.min.js"></script>
-<script src="../js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap-theme.min.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
