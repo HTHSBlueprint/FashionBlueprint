@@ -11,12 +11,9 @@ class Form_handler extends CI_Controller {
 	{
     set_include_path($_SERVER["DOCUMENT_ROOT"] . '/application/libraries');
     include 'postal_codes.php';
-    $var = $postalCodes['alabama'];
-    var_dump($var);
-    exit;
 		$name = $this->input->post('name');
 		$location = $this->input->post('location');
-		$locationArray = explode(", ", $location);
+		$locationArray = explode(",", $location);
 		$city = strtr(trim(ucwords($locationArray[0])), " ", "_");
     if(array_key_exists(trim($locationArray[1]), $postalCodes)) {
       $state = $postalCodes[trim($locationArray[1])];
